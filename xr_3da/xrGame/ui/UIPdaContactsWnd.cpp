@@ -126,7 +126,7 @@ void CUIPdaContactsWnd::RemoveContact(CPda* pda)
 	}
 }
 
-//óäàëèòü âñå êîíòàêòû èç ñïèñêà
+//Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¢Ã±Ã¥ ÃªÃ®Ã­Ã²Ã ÃªÃ²Ã» Ã¨Ã§ Ã±Ã¯Ã¨Ã±ÃªÃ 
 void CUIPdaContactsWnd::RemoveAll()
 {
 	UIListWnd->Clear		();
@@ -161,7 +161,7 @@ void CUIPdaContactItem::SetSelected	(bool b)
 		CSE_ALifeTraderAbstract*	T = ch_info_get_from_id(UIInfo->OwnerID());
 		chInfo.Init					(T);
 
-		ADD_TEXT_TO_VIEW2( *(chInfo.Bio()), m_cw->UIDetailsWnd);
+//		ADD_TEXT_TO_VIEW2( *(chInfo.Bio()), m_cw->UIDetailsWnd);
 	}
 }
 
